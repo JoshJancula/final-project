@@ -28,15 +28,22 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url(http://classicrock.cms.vipology.com/wp-content/uploads/sites/4/brickwall-background.jpg);
+    /*background-image: url(http://classicrock.cms.vipology.com/wp-content/uploads/sites/4/brickwall-background.jpg);*/
     background-repeat: no-repeat;
     background-size: auto;
-    background: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.1)), url(http://classicrock.cms.vipology.com/wp-content/uploads/sites/4/brickwall-background.jpg);
+    background: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.1)), url();
 
 }
 
 main {
     flex: 1 0 auto;
+}
+
+.main{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS99p7XSTHNL1kjYU4Lza5oxAvzZJrO4XIU58kKTdtUzQChrfG0mw);
+    background-size: contain;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #searchCard,
@@ -88,4 +95,22 @@ main {
 
 #profileContents {
     margin-top: 60px;
+
+
+}
+
+.parrallax-container{
+    height: 250px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel{
+    overflow: visible;
+    height: 400px;
+}
+
+.card{
+    width: 400px;
+
 }

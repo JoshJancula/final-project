@@ -3,6 +3,8 @@ window.onload = function() {
   var startLat;
   var startLng;
   var username = "test"
+   $('.parallax').parallax();
+   $('.carousel').carousel();
 
   function distance(startLng, startLat, lon2, lat2, cb) {
     var R = 6371; // Radius of the earth in km

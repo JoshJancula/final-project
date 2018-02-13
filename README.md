@@ -28,3 +28,5 @@ The user may create an account which stores their location to be rendered in sea
 * Now, open the local application on port 3000 at the URL: http://localhost:3000/.
 
 * Create an account, browse and meet new people!
+
+<a href="www.jam-clash.com">Visit the Site Here!</a>

@@ -86,6 +86,7 @@ $(document).ready(function() {
     $("#about").text(data.about);
     $("#reverbNation").text(data.reverbNation);
     $("#soundCloud").text(data.soundCloud);
+     $("#faceBook").text(data.faceBook);
     $("#userStuff").append("<a href='" + data.faceBook + "'>" + "FaceBook" + '</a>' + "<br>");
     $("#userStuff").append("<a href='" + data.reverbNation + "'>" + "Reverb Nation" + '</a>' + "<br>");
     $("#userStuff").append("<a href='" + data.soundCloud + "'>" + "SoundCloud" + '</a>');
